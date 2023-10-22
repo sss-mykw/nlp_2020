@@ -7,10 +7,6 @@ from itertools import zip_longest
 input_text1 = 'パトカー'
 input_text2 = 'タクシー'
 
-"""
-mapでリストを作成し、文字列連結をする
-"""
-
 # パターン１
 # cross_list = list(map(add, input_text1, input_text2))
 # output_text = reduce(add, cross_list)
